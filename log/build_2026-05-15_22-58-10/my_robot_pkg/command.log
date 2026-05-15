@@ -1,0 +1,4 @@
+Invoking command in '/home/tanish/ros2_ws/build/my_robot_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tanish/ros2_ws/build/my_robot_pkg -- -j22 -l22
+Invoked command in '/home/tanish/ros2_ws/build/my_robot_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tanish/ros2_ws/build/my_robot_pkg -- -j22 -l22
+Invoking command in '/home/tanish/ros2_ws/build/my_robot_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tanish/ros2_ws/build/my_robot_pkg
+Invoked command in '/home/tanish/ros2_ws/build/my_robot_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tanish/ros2_ws/build/my_robot_pkg

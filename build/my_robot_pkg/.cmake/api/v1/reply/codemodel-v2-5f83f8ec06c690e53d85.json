@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b57d78ba887488099218.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "my_robot_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_service::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_service-57459cb2843120ceead8.json",
+					"name" : "motor_service",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robot_pkg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robot_pkg_uninstall-317f70ae0f116fec0783.json",
+					"name" : "my_robot_pkg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_controller-62c886532e71e0ffd2bf.json",
+					"name" : "robot_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor_publisher-925b1ed03589513a5295.json",
+					"name" : "sensor_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-3355196656bdcb43702a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tanish/ros2_ws/build/my_robot_pkg",
+		"source" : "/home/tanish/ros2_ws/src/my_robot_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

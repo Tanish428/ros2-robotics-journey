@@ -1,0 +1,51 @@
+[0.013s] Invoking command in '/home/tanish/ros2_ws/build/my_robot_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tanish/ros2_ws/build/my_robot_pkg -- -j22 -l22
+[0.046s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.309s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.338s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.348s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.359s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.374s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.444s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.447s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.551s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.626s] -- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.643s] -- Found std_srvs: 5.3.7 (/opt/ros/jazzy/share/std_srvs/cmake)
+[0.663s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.768s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.768s] -- Configured cppcheck include dirs: 
+[0.768s] -- Configured cppcheck exclude dirs and/or files: 
+[0.769s] -- Added test 'lint_cmake' to check CMake code style
+[0.769s] -- Added test 'uncrustify' to check C / C++ code style
+[0.770s] -- Configured uncrustify additional arguments: 
+[0.770s] -- Added test 'xmllint' to check XML markup files
+[0.771s] -- Configuring done (0.7s)
+[0.788s] -- Generating done (0.0s)
+[0.794s] -- Build files have been written to: /home/tanish/ros2_ws/build/my_robot_pkg
+[0.849s] [ 16%] [32mBuilding CXX object CMakeFiles/motor_service.dir/src/motor_service.cpp.o[0m
+[0.857s] [ 50%] Built target sensor_publisher
+[0.859s] [ 83%] Built target robot_controller
+[3.860s] [100%] [32m[1mLinking CXX executable motor_service[0m
+[4.012s] [100%] Built target motor_service
+[4.027s] Invoked command in '/home/tanish/ros2_ws/build/my_robot_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tanish/ros2_ws/build/my_robot_pkg -- -j22 -l22
+[4.042s] Invoking command in '/home/tanish/ros2_ws/build/my_robot_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tanish/ros2_ws/build/my_robot_pkg
+[4.053s] -- Install configuration: ""
+[4.053s] -- Up-to-date: /home/tanish/ros2_ws/install/my_robot_pkg/lib/my_robot_pkg/sensor_publisher
+[4.053s] -- Up-to-date: /home/tanish/ros2_ws/install/my_robot_pkg/lib/my_robot_pkg/robot_controller
+[4.053s] -- Installing: /home/tanish/ros2_ws/install/my_robot_pkg/lib/my_robot_pkg/motor_service
+[4.055s] -- Set non-toolchain portion of runtime path of "/home/tanish/ros2_ws/install/my_robot_pkg/lib/my_robot_pkg/motor_service" to ""
+[4.055s] -- Installing: /home/tanish/ros2_ws/install/my_robot_pkg/share/ament_index/resource_index/package_run_dependencies/my_robot_pkg
+[4.055s] -- Up-to-date: /home/tanish/ros2_ws/install/my_robot_pkg/share/ament_index/resource_index/parent_prefix_path/my_robot_pkg
+[4.055s] -- Up-to-date: /home/tanish/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/environment/ament_prefix_path.sh
+[4.055s] -- Up-to-date: /home/tanish/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/environment/ament_prefix_path.dsv
+[4.055s] -- Up-to-date: /home/tanish/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/environment/path.sh
+[4.055s] -- Up-to-date: /home/tanish/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/environment/path.dsv
+[4.055s] -- Up-to-date: /home/tanish/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/local_setup.bash
+[4.055s] -- Up-to-date: /home/tanish/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/local_setup.sh
+[4.056s] -- Up-to-date: /home/tanish/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/local_setup.zsh
+[4.056s] -- Up-to-date: /home/tanish/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/local_setup.dsv
+[4.056s] -- Installing: /home/tanish/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/package.dsv
+[4.056s] -- Up-to-date: /home/tanish/ros2_ws/install/my_robot_pkg/share/ament_index/resource_index/packages/my_robot_pkg
+[4.056s] -- Up-to-date: /home/tanish/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/cmake/my_robot_pkgConfig.cmake
+[4.056s] -- Up-to-date: /home/tanish/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/cmake/my_robot_pkgConfig-version.cmake
+[4.056s] -- Installing: /home/tanish/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/package.xml
+[4.057s] Invoked command in '/home/tanish/ros2_ws/build/my_robot_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tanish/ros2_ws/build/my_robot_pkg
